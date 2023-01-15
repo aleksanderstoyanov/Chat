@@ -1,3 +1,12 @@
 html{
     font-family: "Gill Sans", sans-serif;
 }
+body{
+    background-color: rgb(238,238,238);
+    display: block;
+    height: 1505px;
+}
+html, body, main {
+    margin: 0;
+    height: 100%;
+}

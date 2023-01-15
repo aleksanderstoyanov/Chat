@@ -1,0 +1,12 @@
+.message-container{
+    box-sizing: border-box;
+    background-color: rgba(59,113,202);
+    width: 12%;
+    color: antiquewhite;
+    border-radius: 10px;
+    height: 2.5em;
+}
+.text-message{
+    text-align: left;
+    padding: 10px;
+}

@@ -9,10 +9,11 @@
             
             if ($countOfRows == 0) {
                 for($i = 0;$i < count(FORUMS);$i++)
-                $forumValue = FORUMS[$i];
-                $query = "INSERT INTO forum (Name) VALUES('$forumValue')";
-                $result = mysqli_query(DATABASE_CONNECTION, $query);
-                
+                {
+                    $forumValue = FORUMS[$i];
+                    $query = "INSERT INTO forum (Name) VALUES('$forumValue')";
+                    $result = mysqli_query(DATABASE_CONNECTION, $query);
+                }
             }
         }
     }

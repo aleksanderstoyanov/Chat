@@ -1,3 +1,7 @@
+<?php include("./database/seeding.php") ?>
+<?php
+    Seeder::seedForumData();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

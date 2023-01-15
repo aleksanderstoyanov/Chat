@@ -1,0 +1,17 @@
+.chat-container-input{
+    margin: 7%;
+}
+#sendInput{
+   border: none;
+   border: none;
+   height: 2em;
+   width: 85%;
+}
+#sendBtn{
+    color: rgb(79,79,79);
+    margin-left: 2%;
+}
+#sendBtn:hover{
+    color: rgb(59,113,202);
+    transition: 0.5s;
+}

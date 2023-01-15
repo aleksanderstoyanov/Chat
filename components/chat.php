@@ -15,5 +15,6 @@
             <?php include("./components/messages/receiver.php")?>
             <?php include("./components/messages/sender.php")?>
         </div>
+        <?php include("./components/input.php")?>
     </div>    
 </div>

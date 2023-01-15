@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="styles/message.css">
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/chat.css">
+    <link rel="stylesheet" href="styles/input.css">
+    <script src="https://kit.fontawesome.com/1e00da35a2.js" crossorigin="anonymous"></script>    
 </head>
 <body>
     <main>
         <?php include("./components/chat.php")?>
-    <main>    
+    </main>
 </body>
 </html>

@@ -12,10 +12,16 @@
 }
 .chat-container-header{
     height: 10%;
+    margin: 0px;
     color: rgb(79,79,79);
     border-bottom: 1px solid rgb(245,245,245);
 }
+.chat-container-body{
+    height: 350px;
+    overflow-y: scroll;
+}
 .chat-container-header-title{
     text-align: left;
+    margin: 0px;
     padding: 10px;
 }

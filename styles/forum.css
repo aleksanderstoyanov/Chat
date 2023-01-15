@@ -1,0 +1,31 @@
+.forum-container{
+    box-sizing: border-box;   
+    background-color: rgb(255,255,255);
+    height: 17%;
+    width: 16%;
+    border-radius: 2.5%;
+    align-items: center;
+    position: relative;
+    margin: 5% 2% 0% auto;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.forum-title{
+    text-align: center;
+    padding: 5px;
+    color: rgb(79,79,79);
+    border-bottom: 1px solid rgb(245,245,245)
+}
+.forum-item{
+    margin-bottom: 5%;
+}
+.forum-item a{
+    text-decoration: none; 
+    color: rgb(79,79,79);
+}
+.forum-item span{
+    margin-right: 5%; 
+    font-size: 15px;
+}
+.forum-items{
+    list-style: none;
+}

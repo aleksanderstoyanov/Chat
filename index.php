@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/chat.css">
     <link rel="stylesheet" href="styles/input.css">
+    <link rel="stylesheet" href="styles/navigation.css">
     <script src="https://kit.fontawesome.com/1e00da35a2.js" crossorigin="anonymous"></script>    
 </head>
 <body>
+    <?php include("./components/header.php")?>
     <main>
         <?php include("./components/chat.php")?>
     </main>

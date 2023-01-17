@@ -10,7 +10,7 @@
                 </a>
             </li>
             <li class="forum-navigation-item">
-                <a href="#">
+                <a href="#" onclick="toggleForum()">
                     <i class="fa fa-regular fa-comment"></i>
                     <span class="tooltiptext">Open Forums</span>
                 </a>

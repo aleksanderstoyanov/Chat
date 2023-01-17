@@ -2,19 +2,28 @@
     <div class="chat-container-header">
         <h2 class="chat-container-header-title">Chat</h2>
         <div class="chat-container-body">
-            <?php include("./components/messages/receiver.php")?>
-            <?php include("./components/messages/sender.php")?>
-            <?php include("./components/messages/sender.php")?>
-            <?php include("./components/messages/sender.php")?>
-            <?php include("./components/messages/receiver.php")?>
-            <?php include("./components/messages/sender.php")?>
-            <?php include("./components/messages/receiver.php")?>
-            <?php include("./components/messages/sender.php")?>
-            <?php include("./components/messages/receiver.php")?>
-            <?php include("./components/messages/sender.php")?>
-            <?php include("./components/messages/receiver.php")?>
-            <?php include("./components/messages/sender.php")?>
+            <?php
+                if(!empty($_GET["selectedForum"])){
+                    switch ($_GET["selectedForum"]) {
+                        case 'Fun':
+                            include("../components/messages/receiver.php");
+                            break;
+                        case 'Sport':
+                            include("../components/messages/receiver.php");
+                            include("../components/messages/sender.php");
+                            include("../components/messages/receiver.php");
+                            include("../components/messages/sender.php");
+                            break;
+                        case 'Books':
+                            include("../components/messages/receiver.php");
+                            include("../components/messages/sender.php");
+                            break;    
+                        default:
+                            break;
+                    }
+                }
+            ?>
         </div>
-        <?php include("./components/input.php")?>
     </div>    
+    <?php include("../components/input.php")?>    
 </div>

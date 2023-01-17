@@ -1,5 +1,6 @@
 .forum-container{
-    box-sizing: border-box;   
+    box-sizing: border-box;  
+    display: none; 
     background-color: rgb(255,255,255);
     height: 17%;
     width: 16%;

@@ -1,5 +1,8 @@
 .chat-container-input{
     margin: 7%;
+    position: absolute;
+    bottom: 0px;
+    width: 85%;
 }
 #sendInput{
    border: none;

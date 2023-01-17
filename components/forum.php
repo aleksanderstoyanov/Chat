@@ -7,7 +7,7 @@
     <ul class="forum-items">
        <?php foreach ($forums as $forum) :?>
         <li class="forum-item">
-        <a href="#">
+        <a href="#" onclick="toggleForumChat(this)">
             <span class="fa fa-regular fa-comments"></span>
             <?php echo $forum["Name"]?>
         </a>

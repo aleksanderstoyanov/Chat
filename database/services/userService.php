@@ -29,6 +29,7 @@
                 mysqli_query(DATABASE_CONNECTION, $query);
                 
                 $_SESSION["auth"] = '1';
+                $_SESSION["username"] = $username;
             }
         }
         public static function login($username, $password){
@@ -40,6 +41,7 @@
     
             if($userResult["username"] == $username && $userResult["pass"] == $password){
                 $_SESSION["auth"] = '1';
+                $_SESSION["username"] = $username;
             }
         }
     }

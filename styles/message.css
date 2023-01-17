@@ -7,10 +7,14 @@
 }
 .sender{
     background-color: rgba(59,113,202);
+    margin-top: 6%;
+    margin-bottom: 7%;
     margin-left: auto;
 }
 .receiver{
     background-color: rgb(245,246,247);
+    margin-top: 6%;
+    margin-bottom: 7%;
     color: rgb(82,82,82);
 }
 .text-message{

@@ -1,14 +1,8 @@
 <?php include("./database/seeding.php") ?>
+<?php include("./database/connection.php") ?>
 <?php
     Seeder::seedForumData();
     session_start();
-
-    if (isset($_SESSION["auth"])) {
-        echo "Logged In";
-    }
-    else{
-        echo "Not Logged In";
-    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -37,5 +31,6 @@
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="./scripts/forum.js"></script>
     <script src="./scripts/user.js"></script>
+    <script src="./scripts/chat.js"></script>
 </body>
 </html>

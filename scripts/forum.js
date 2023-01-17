@@ -17,7 +17,7 @@ function toggleForumChat(target){
     $.ajax({
         type: "GET",
         url: "./components/chat.php",
-        data : { selectedForum : forumText},
+        data : { selectedForum: forumText, type: forumText},
         success: function(html){
             console.log(html);
             $(".chat-container").replaceWith(html);

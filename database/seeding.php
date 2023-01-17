@@ -1,4 +1,3 @@
-<?php include("./database/connection.php")?>
 <?php
     define("FORUMS", ["Fun","Sport","Books"]);
     class Seeder{

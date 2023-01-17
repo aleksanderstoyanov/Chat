@@ -1,6 +1,14 @@
 <?php include("./database/seeding.php") ?>
 <?php
     Seeder::seedForumData();
+    session_start();
+
+    if (isset($_SESSION["auth"])) {
+        echo "Logged In";
+    }
+    else{
+        echo "Not Logged In";
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">

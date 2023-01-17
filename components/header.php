@@ -4,17 +4,17 @@
                 <a href="#">Forum Chat</a>
             </li>
             <li class="forum-navigation-item right">
-                <a href="#">
-                    <i class="fa fa-regular fa-user"></i>
-                    <span class="tooltiptext">View Account</span>
+                <a id="register-link" onclick="openCredentialsForm(this)" href="#">
+                    Register
+                </a>
+                <a id="login-link" onclick="openCredentialsForm(this)" href="#">
+                    Login
                 </a>
             </li>
             <li class="forum-navigation-item">
                 <a href="#" onclick="toggleForum()">
                     <i class="fa fa-regular fa-comment"></i>
-                    <span class="tooltiptext">Open Forums</span>
                 </a>
-
             </li>
         </ul>
 </nav> 

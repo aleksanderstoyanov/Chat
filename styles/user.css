@@ -1,0 +1,52 @@
+.credentials-form input{
+    border: none;
+    background-color: whitesmoke;
+    padding: 15px;
+    margin-top: 25px;
+    border-radius: 30px;
+}
+.credentials-form{
+    display: none;
+    text-align: center;
+    background-color: rgb(255,255,255) ;
+    width: 500px;
+    margin-top: 7em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    
+}
+.credentials-form form{
+ width: 199px;
+    display: inline-grid;
+}
+.credentials-form button{
+    margin-top: 76px;
+    padding: 15px;
+    font-size: 15px;
+    background-color: rgba(59,113,202);
+    color: white;
+    border-radius: 30px;
+    border:hidden;
+}
+.credentials-form i{
+    margin-top: 40px;
+    font-size: 50px;
+    color: black;
+}
+.credentials-form button:hover{
+
+    transition: 0.6s;
+    background-color: white;
+    color: black;
+}
+.credentials-form h1{
+    font-size: 27px;
+    color: white;
+    font-family: courier;
+}
+.credentials-form a{
+    color: white;
+    margin-top: 45px;
+
+}

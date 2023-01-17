@@ -6,6 +6,11 @@ function toggleForumChat(target){
     if($(".chat-container").is(":visible")){
         $(".chat-container").hide();
     }
+    if ($(".credentials-form").is(":visible")) {
+        console.log("here");
+        $(".credentials-form").hide();
+    }
+    
     $(".chat-container").slideToggle("slow");
     var forumText = $(target).text().trim();
 
@@ -13,16 +18,10 @@ function toggleForumChat(target){
         type: "GET",
         url: "./components/chat.php",
         data : { selectedForum : forumText},
-        beforeSend: function(){
-        }
-        , complete: function(){
-        }
-        , success: function(html){
+        success: function(html){
             console.log(html);
-            //this will add the new comment to the `comment' div
             $(".chat-container").replaceWith(html);
             $(".chat-container").slideToggle("slow");
-            ///$("main").append(html);
         }
     });
 
